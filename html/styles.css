@@ -1,0 +1,54 @@
+#der{
+  position:center;
+  right:0;
+  top:0;
+  width:200px;
+  height:200px;
+  margin-bottom: 50px;
+}
+
+.id{
+  margin-top: 4px;
+  display: block;
+  width: 20px;
+}
+#der h1{
+  width: 200px;
+  height:50px;
+  line-height:50px;   
+  text-align:center;
+  background:rgba(100,0,255,1);
+  color:White;
+  margin-bottom:10px;
+}
+
+#der input{
+  padding:10px;
+  margin:1em, 0;
+  width: 176px;;
+}
+/*#der input{
+  width:200px;
+  Background:rgba(151, 130, 151, 0.5);
+  Border:0;
+}*/
+nav ul a:hover{
+  text-decoration: underline;
+  color:rgb(168, 123, 236);
+}
+a:active{
+  Background: black;
+}
+aside ul li a:hover{
+  text-decoration: none;
+  color: aqua;
+}
+#chat{
+  position :fix ed;
+  width:256px;
+  height:40px;
+  botón:0;
+  backgraound:magenta;
+  right: 20xp;
+  z-índice:0;
+}

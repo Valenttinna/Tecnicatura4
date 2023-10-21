@@ -1,24 +1,35 @@
-$primary-color: rgb(90,89,28);
+$primary-color: #3B9C9C;
 $secondary-color: rgb(224,124,31);
 $terciary-color: rgb(226,226,154);
 $primsry-text-olor: rgb(63,38,1);
 $font-stack:'IBM Plex Sans', sans-serif;
 body {
-  background-color: rgb(241,208,115);
+  background-color: #00827F;
   margin: 0;
   padding: 0;
 }
 
-nav {
+nav{
   width: 100%;
   height: 100px;
+  p{
+    font-size: 1.5;
+    padding-left: 30px ;
+  }
+  .icons{
+    display: flex;
+    botton {
+        background: none;
+        border-style: none;
+    }
+  }
 }
 
 main {
   background-color: $primary-color;
 }
 footer {
-  $background: rgb(199,116,20);
+  $background: #045F5F;
   background-color: $background;
   width: 100%;
   height: 250px;

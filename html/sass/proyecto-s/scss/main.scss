@@ -1,26 +1,34 @@
-$primary-color: #3B9C9C;
+$primary-color: #b8a37c;
 $secondary-color: rgb(224,124,31);
-$terciary-color: rgb(226,226,154);
-$primsry-text-olor: rgb(63,38,1);
+$terciary-color: #e2e29a;
+$quaternion-color: orange;
+$primary-text-color: rgb(63,38,1);
 $font-stack:'IBM Plex Sans', sans-serif;
+$paragraph-zise:1,5em;
 body {
-  background-color: #00827F;
+  background-color: #805f2f;
   margin: 0;
   padding: 0;
+  font-family: $font-stack;
 }
 
 nav{
-  width: 100%;
-  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  color: $primary-text-color;
+  padding: 15px;
   p{
-    font-size: 1.5;
+    font-size: $paragraph-zise;
     padding-left: 30px ;
   }
+  
   .icons{
     display: flex;
-    botton {
-        background: none;
-        border-style: none;
+    gap: 15px;
+    button{
+      background: none;
+      border-style: none;
     }
   }
 }
@@ -28,8 +36,52 @@ nav{
 main {
   background-color: $primary-color;
 }
+article{
+  width: auto;
+  color:$primary-text-color;
+  display: flex;
+  justify-content: space-around;
+  .info-section{
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap:25px;   
+  }
+  h1{
+    font-size: 3em;
+    padding: 0px;
+    margin: 0px;
+  }
+  p{
+    font-size: $paragraph-zise;
+  }
+    button{
+      width: 12vw;
+      padding: 20px;
+      background-color: $quaternion-color;
+      background: none;
+      border-style: none;
+      border-radius: 35px;
+      color:white
+      font-size 1em;
+    }
+    img{
+      width: 25vw;
+      border-radius: 19px;
+    }
+section {
+  width: 100%;
+  height: auto;
+  background-color: rgb(219,182,236);
+  padding: 60px;
+}
+  h2 {
+    color: $primary-text-color;
+  }
+
+}
 footer {
-  $background: #045F5F;
+  $background: #a46a0c;
   background-color: $background;
   width: 100%;
   height: 250px;

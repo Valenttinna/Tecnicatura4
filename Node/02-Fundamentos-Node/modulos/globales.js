@@ -12,7 +12,29 @@ setTimeout(()=>{});
 //Ejecutar un codigo cada intervalo de tiempo
 setInterval(()=>{});
 
-SetInmediate(()=>{});
+SetImmediate(()=>{});
 */
 
-console.log(setInterval);
+//console.log(setInterval);
+/*
+let i = 0;
+let intervalo = setInterval(()=>{
+  console.log('Hola');
+  if (i===3) {
+    clearInterval(intervalo); //detenemos la funcion
+  }
+  i++;
+},1000);
+*/
+
+setImmediate(()=>{
+  console.log('Saludo inmediato');
+});
+
+//console.log(process);
+
+console.log(__dirname);//muestra el directorio donde estamos trabajando
+console.log(__filename);//el archivo tmb donde estamos trabajando
+
+global.miVariable = 'mi variable global';
+console.log(miVariable);

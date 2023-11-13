@@ -9,10 +9,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Entity //Porque es nuestra clase entidad
+@Data //
+@NoArgsConstructor //Constructor sin argumentos
+@AllArgsConstructor // Constructor con todos los argumentos
 @ToString
 public class Libro {
     @Id
@@ -22,5 +22,4 @@ public class Libro {
     String autor;
     Double precio;
     Integer existencias;
-
 }
